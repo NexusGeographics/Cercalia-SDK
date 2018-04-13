@@ -1,0 +1,1251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49002AEA1F682B7D0076A3E6 /* skyline.png in Resources */ = {isa = PBXBuildFile; fileRef = 49002AE71F682B7D0076A3E6 /* skyline.png */; };
+		49002AEB1F682B7D0076A3E6 /* skyline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49002AE81F682B7D0076A3E6 /* skyline@2x.png */; };
+		49002AEC1F682B7D0076A3E6 /* skyline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49002AE91F682B7D0076A3E6 /* skyline@3x.png */; };
+		4906C3CE1F0E451100F18CCD /* BoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4906C3CD1F0E451100F18CCD /* BoundsViewController.swift */; };
+		49258B681F62C99B0046449C /* ic_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 49258B651F62C99B0046449C /* ic_info.png */; };
+		49258B691F62C99B0046449C /* ic_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49258B661F62C99B0046449C /* ic_info@2x.png */; };
+		49258B6A1F62C99B0046449C /* ic_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49258B671F62C99B0046449C /* ic_info@3x.png */; };
+		495200FB1EE817D500FD6423 /* CMSuggest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495200FA1EE817D500FD6423 /* CMSuggest.swift */; };
+		495201001EE82A1D00FD6423 /* CMSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495200FF1EE82A1D00FD6423 /* CMSuggestion.swift */; };
+		4989E0891EF1848900741863 /* CMGe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989E0881EF1848900741863 /* CMGe.swift */; };
+		4989E08B1EF1851600741863 /* CMKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989E08A1EF1851600741863 /* CMKeyValue.swift */; };
+		4989E08D1EF18D3F00741863 /* CMValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989E08C1EF18D3F00741863 /* CMValue.swift */; };
+		49A3A96E1EF01D9F00565D3A /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A96D1EF01D9F00565D3A /* City.swift */; };
+		49A3A9711EF01E5500565D3A /* CMCodeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A9701EF01E5500565D3A /* CMCodeName.swift */; };
+		49A3A9731EF0200B00565D3A /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A9721EF0200B00565D3A /* Country.swift */; };
+		49A3A9751EF020A300565D3A /* Municipality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A9741EF020A300565D3A /* Municipality.swift */; };
+		49A3A9771EF020CC00565D3A /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A9761EF020CC00565D3A /* Region.swift */; };
+		49A3A9791EF020FE00565D3A /* Road.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A9781EF020FE00565D3A /* Road.swift */; };
+		49A3A97B1EF0246900565D3A /* RoadProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A97A1EF0246900565D3A /* RoadProperties.swift */; };
+		49A3A97D1EF0268D00565D3A /* StreetProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A97C1EF0268D00565D3A /* StreetProperties.swift */; };
+		49A3A97F1EF02D1800565D3A /* SubRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A97E1EF02D1800565D3A /* SubRegion.swift */; };
+		49A3A9811EF02D5600565D3A /* CMAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A3A9801EF02D5600565D3A /* CMAddress.swift */; };
+		49C6C1F91F056A0300DBF273 /* CMLatLngBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6C1F81F056A0300DBF273 /* CMLatLngBounds.swift */; };
+		49E698A71F02B19C00DDC009 /* CMCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E698A61F02B19C00DDC009 /* CMCircle.swift */; };
+		49E815641EFD3E5D00D7B294 /* arrow-to-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E815631EFD3E5D00D7B294 /* arrow-to-left.png */; };
+		49EDDA401F03B64B00960CE8 /* CMCircleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EDDA3F1F03B64B00960CE8 /* CMCircleStyle.swift */; };
+		49EEBF6A1EE7F0680078D3AD /* CMSuggestGeocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBF691EE7F0680078D3AD /* CMSuggestGeocoding.swift */; };
+		49EEBF6C1EE800BB0078D3AD /* CMGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBF6B1EE800BB0078D3AD /* CMGeocoder.swift */; };
+		49F4E51B1EE9A3EA000CC06F /* CMObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4E51A1EE9A3EA000CC06F /* CMObject.swift */; };
+		49FC66581EF926DE00DECFBB /* DetailedLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC66571EF926DE00DECFBB /* DetailedLocationsView.swift */; };
+		49FC665A1EF9270000DECFBB /* DetailedLocationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FC66591EF9270000DECFBB /* DetailedLocationsView.xib */; };
+		49FC665C1EF93F8200DECFBB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC665B1EF93F8200DECFBB /* Utils.swift */; };
+		C6220F1F1EDC12FC00B653AE /* CMMapControllerGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6220F1E1EDC12FC00B653AE /* CMMapControllerGestureRecognizer.swift */; };
+		C63D68241EDEB2A1001BA007 /* gps.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D68191EDEB2A1001BA007 /* gps.png */; };
+		C63D68251EDEB2A1001BA007 /* gps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D681A1EDEB2A1001BA007 /* gps@2x.png */; };
+		C63D68261EDEB2A1001BA007 /* gps@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D681B1EDEB2A1001BA007 /* gps@3x.png */; };
+		C63D68271EDEB2A1001BA007 /* less.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D681D1EDEB2A1001BA007 /* less.png */; };
+		C63D68281EDEB2A1001BA007 /* less@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D681E1EDEB2A1001BA007 /* less@2x.png */; };
+		C63D68291EDEB2A1001BA007 /* less@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D681F1EDEB2A1001BA007 /* less@3x.png */; };
+		C63D682A1EDEB2A1001BA007 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D68211EDEB2A1001BA007 /* plus.png */; };
+		C63D682B1EDEB2A1001BA007 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D68221EDEB2A1001BA007 /* plus@2x.png */; };
+		C63D682C1EDEB2A1001BA007 /* plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63D68231EDEB2A1001BA007 /* plus@3x.png */; };
+		C63D682E1EDEF76E001BA007 /* CMCercalia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63D682D1EDEF76E001BA007 /* CMCercalia.swift */; };
+		C661B4941EAE377D0051A609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B4931EAE377D0051A609 /* AppDelegate.swift */; };
+		C661B4961EAE377D0051A609 /* SuggestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B4951EAE377D0051A609 /* SuggestViewController.swift */; };
+		C661B4991EAE377D0051A609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C661B4971EAE377D0051A609 /* Main.storyboard */; };
+		C661B49C1EAE377D0051A609 /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C661B49A1EAE377D0051A609 /* Demo.xcdatamodeld */; };
+		C661B49E1EAE377D0051A609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C661B49D1EAE377D0051A609 /* Assets.xcassets */; };
+		C661B4A11EAE377D0051A609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C661B49F1EAE377D0051A609 /* LaunchScreen.storyboard */; };
+		C661B4AF1EAE37990051A609 /* Cercalia.h in Headers */ = {isa = PBXBuildFile; fileRef = C661B4AD1EAE37990051A609 /* Cercalia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6661EF91EDC6C6E00C9920C /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6661EF81EDC6C6E00C9920C /* DemoListViewController.swift */; };
+		C68E79F71ED5BCEF0019C940 /* CMPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68E79F61ED5BCEF0019C940 /* CMPoint.swift */; };
+		C690DE601EDDA76A0004FAC2 /* UIColorExtencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690DE5F1EDDA76A0004FAC2 /* UIColorExtencion.swift */; };
+		C690DE621EDDA9500004FAC2 /* CMUISettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690DE611EDDA9500004FAC2 /* CMUISettingsButton.swift */; };
+		C6A668B31ED6CED50019D9E8 /* CMPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B21ED6CED50019D9E8 /* CMPolygon.swift */; };
+		C6A668B51ED6E6810019D9E8 /* CMGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B41ED6E6810019D9E8 /* CMGeometry.swift */; };
+		C6A668B71ED6EA2E0019D9E8 /* CMMultiPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B61ED6EA2E0019D9E8 /* CMMultiPoint.swift */; };
+		C6A668BA1ED6F51C0019D9E8 /* CMStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B91ED6F51C0019D9E8 /* CMStyling.swift */; };
+		C6A668BC1ED6F6DE0019D9E8 /* CMFeatureStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A668BB1ED6F6DE0019D9E8 /* CMFeatureStyle.swift */; };
+		C6A668BE1ED6F75A0019D9E8 /* CMSinglePointStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A668BD1ED6F75A0019D9E8 /* CMSinglePointStyle.swift */; };
+		C6A668C01ED6F8410019D9E8 /* CMMarkerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A668BF1ED6F8410019D9E8 /* CMMarkerStyle.swift */; };
+		C6ABFC981EDBF56200DBCED5 /* CMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABFC971EDBF56200DBCED5 /* CMLabel.swift */; };
+		C6B82B011EDDB8A700F5965A /* north.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B82AFE1EDDB8A700F5965A /* north.png */; };
+		C6B82B021EDDB8A700F5965A /* north@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B82AFF1EDDB8A700F5965A /* north@2x.png */; };
+		C6B82B031EDDB8A700F5965A /* north@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B82B001EDDB8A700F5965A /* north@3x.png */; };
+		C6C598B41ED6C3F9004ECA52 /* CMLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C598B31ED6C3F9004ECA52 /* CMLine.swift */; };
+		C6C6A1B21EDD4853002B61BE /* CMUISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C6A1B11EDD4853002B61BE /* CMUISettings.swift */; };
+		C6C6A1B41EDD6550002B61BE /* FeaturesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C6A1B31EDD6550002B61BE /* FeaturesDemoViewController.swift */; };
+		C6C7E1571EAE43F700EF91E1 /* Cercalia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C661B4AB1EAE37990051A609 /* Cercalia.framework */; };
+		C6C7E1581EAE43F700EF91E1 /* Cercalia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C661B4AB1EAE37990051A609 /* Cercalia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6D760B41ED8017D004140B8 /* CMPointStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D760B31ED8017D004140B8 /* CMPointStyle.swift */; };
+		C6D760B61ED809CD004140B8 /* CMMultiPointStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D760B51ED809CD004140B8 /* CMMultiPointStyle.swift */; };
+		C6D760B81ED80B22004140B8 /* CMPolygonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D760B71ED80B22004140B8 /* CMPolygonStyle.swift */; };
+		C6D760BA1ED80CF7004140B8 /* CMLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D760B91ED80CF7004140B8 /* CMLineStyle.swift */; };
+		C6D760BC1ED81A4F004140B8 /* CMLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D760BB1ED81A4F004140B8 /* CMLabelStyle.swift */; };
+		C6D760BE1ED81D67004140B8 /* CMFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D760BD1ED81D67004140B8 /* CMFontStyle.swift */; };
+		C6D760C11ED81F93004140B8 /* JSONable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D760C01ED81F93004140B8 /* JSONable.swift */; };
+		C6EC8B301EAF23B3005F0027 /* scene-cercalia.yaml in Resources */ = {isa = PBXBuildFile; fileRef = C6EC8B2A1EAF23B3005F0027 /* scene-cercalia.yaml */; };
+		C6EC8B331EAF23B3005F0027 /* CMMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B2F1EAF23B3005F0027 /* CMMapView.swift */; };
+		C6EC8B351EAF2AF3005F0027 /* CMLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B341EAF2AF3005F0027 /* CMLog.swift */; };
+		C6EC8B371EAF3515005F0027 /* CMMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B361EAF3515005F0027 /* CMMapController.swift */; };
+		C6EC8B3A1EAF400C005F0027 /* CMLatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B391EAF400C005F0027 /* CMLatLng.swift */; };
+		C6EC8B3C1EAF46FB005F0027 /* CMCameraUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B3B1EAF46FB005F0027 /* CMCameraUpdate.swift */; };
+		C6EC8B3E1EAF478E005F0027 /* CMCameraUpdateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B3D1EAF478E005F0027 /* CMCameraUpdateFactory.swift */; };
+		C6EC8B401EAF47CA005F0027 /* CMCameraPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B3F1EAF47CA005F0027 /* CMCameraPosition.swift */; };
+		C6EC8B421EAF69B0005F0027 /* CMUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B411EAF69B0005F0027 /* CMUtils.swift */; };
+		C6EC8B441EAF7187005F0027 /* CMLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B431EAF7187005F0027 /* CMLayer.swift */; };
+		C6EC8B461EAF86B1005F0027 /* CMFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EC8B451EAF86B1005F0027 /* CMFeature.swift */; };
+		C6F4A0861ED6B4D1000BFAFA /* CMMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F4A0851ED6B4D1000BFAFA /* CMMarker.swift */; };
+		C6F4A0901ED6B812000BFAFA /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F4A0891ED6B812000BFAFA /* location.png */; };
+		C6F4A0911ED6B812000BFAFA /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F4A08A1ED6B812000BFAFA /* location@2x.png */; };
+		C6F4A0921ED6B812000BFAFA /* location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F4A08B1ED6B812000BFAFA /* location@3x.png */; };
+		C6F4A0931ED6B812000BFAFA /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F4A08D1ED6B812000BFAFA /* marker.png */; };
+		C6F4A0941ED6B812000BFAFA /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F4A08E1ED6B812000BFAFA /* marker@2x.png */; };
+		C6F4A0951ED6B812000BFAFA /* marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F4A08F1ED6B812000BFAFA /* marker@3x.png */; };
+		C6F8EFCE1EDC335F000BECB3 /* CMRemoveObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F8EFCD1EDC335F000BECB3 /* CMRemoveObservable.swift */; };
+		FDAD5C3ED9C58924B37B105A /* Pods_Cercalia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49235C5920753560009645CC /* Pods_Cercalia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6C7E1591EAE43F700EF91E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C661B4861EAE37620051A609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C661B4AA1EAE37990051A609;
+			remoteInfo = Cercalia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6C7E15B1EAE43F700EF91E1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6C7E1581EAE43F700EF91E1 /* Cercalia.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		35C6C64A5E03A946D43C59CC /* Pods-Cercalia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cercalia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cercalia/Pods-Cercalia.debug.xcconfig"; sourceTree = "<group>"; };
+		49002AE71F682B7D0076A3E6 /* skyline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skyline.png; sourceTree = "<group>"; };
+		49002AE81F682B7D0076A3E6 /* skyline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skyline@2x.png"; sourceTree = "<group>"; };
+		49002AE91F682B7D0076A3E6 /* skyline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skyline@3x.png"; sourceTree = "<group>"; };
+		4906C3CD1F0E451100F18CCD /* BoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundsViewController.swift; sourceTree = "<group>"; };
+		49235C5920753560009645CC /* Pods_Cercalia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Cercalia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49258B651F62C99B0046449C /* ic_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info.png; sourceTree = "<group>"; };
+		49258B661F62C99B0046449C /* ic_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_info@2x.png"; sourceTree = "<group>"; };
+		49258B671F62C99B0046449C /* ic_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_info@3x.png"; sourceTree = "<group>"; };
+		495200FA1EE817D500FD6423 /* CMSuggest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSuggest.swift; sourceTree = "<group>"; };
+		495200FF1EE82A1D00FD6423 /* CMSuggestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSuggestion.swift; sourceTree = "<group>"; };
+		4989E0881EF1848900741863 /* CMGe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMGe.swift; sourceTree = "<group>"; };
+		4989E08A1EF1851600741863 /* CMKeyValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMKeyValue.swift; sourceTree = "<group>"; };
+		4989E08C1EF18D3F00741863 /* CMValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMValue.swift; sourceTree = "<group>"; };
+		49A3A96D1EF01D9F00565D3A /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		49A3A9701EF01E5500565D3A /* CMCodeName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCodeName.swift; sourceTree = "<group>"; };
+		49A3A9721EF0200B00565D3A /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		49A3A9741EF020A300565D3A /* Municipality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Municipality.swift; sourceTree = "<group>"; };
+		49A3A9761EF020CC00565D3A /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		49A3A9781EF020FE00565D3A /* Road.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Road.swift; sourceTree = "<group>"; };
+		49A3A97A1EF0246900565D3A /* RoadProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadProperties.swift; sourceTree = "<group>"; };
+		49A3A97C1EF0268D00565D3A /* StreetProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetProperties.swift; sourceTree = "<group>"; };
+		49A3A97E1EF02D1800565D3A /* SubRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubRegion.swift; sourceTree = "<group>"; };
+		49A3A9801EF02D5600565D3A /* CMAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMAddress.swift; sourceTree = "<group>"; };
+		49C6C1F81F056A0300DBF273 /* CMLatLngBounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLatLngBounds.swift; sourceTree = "<group>"; };
+		49E698A61F02B19C00DDC009 /* CMCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCircle.swift; sourceTree = "<group>"; };
+		49E815631EFD3E5D00D7B294 /* arrow-to-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-to-left.png"; sourceTree = "<group>"; };
+		49EDDA3F1F03B64B00960CE8 /* CMCircleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCircleStyle.swift; sourceTree = "<group>"; };
+		49EEBF691EE7F0680078D3AD /* CMSuggestGeocoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSuggestGeocoding.swift; sourceTree = "<group>"; };
+		49EEBF6B1EE800BB0078D3AD /* CMGeocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMGeocoder.swift; sourceTree = "<group>"; };
+		49F4E51A1EE9A3EA000CC06F /* CMObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMObject.swift; sourceTree = "<group>"; };
+		49FC66571EF926DE00DECFBB /* DetailedLocationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedLocationsView.swift; sourceTree = "<group>"; };
+		49FC66591EF9270000DECFBB /* DetailedLocationsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedLocationsView.xib; sourceTree = "<group>"; };
+		49FC665B1EF93F8200DECFBB /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5EC64D4144CF32D12787A06D /* Pods-Cercalia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cercalia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cercalia/Pods-Cercalia.release.xcconfig"; sourceTree = "<group>"; };
+		C6220F1E1EDC12FC00B653AE /* CMMapControllerGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMapControllerGestureRecognizer.swift; sourceTree = "<group>"; };
+		C63D68191EDEB2A1001BA007 /* gps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps.png; sourceTree = "<group>"; };
+		C63D681A1EDEB2A1001BA007 /* gps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps@2x.png"; sourceTree = "<group>"; };
+		C63D681B1EDEB2A1001BA007 /* gps@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps@3x.png"; sourceTree = "<group>"; };
+		C63D681D1EDEB2A1001BA007 /* less.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = less.png; sourceTree = "<group>"; };
+		C63D681E1EDEB2A1001BA007 /* less@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "less@2x.png"; sourceTree = "<group>"; };
+		C63D681F1EDEB2A1001BA007 /* less@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "less@3x.png"; sourceTree = "<group>"; };
+		C63D68211EDEB2A1001BA007 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		C63D68221EDEB2A1001BA007 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		C63D68231EDEB2A1001BA007 /* plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@3x.png"; sourceTree = "<group>"; };
+		C63D682D1EDEF76E001BA007 /* CMCercalia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCercalia.swift; sourceTree = "<group>"; };
+		C661B4901EAE377D0051A609 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C661B4931EAE377D0051A609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C661B4951EAE377D0051A609 /* SuggestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestViewController.swift; sourceTree = "<group>"; };
+		C661B4981EAE377D0051A609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C661B49B1EAE377D0051A609 /* Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo.xcdatamodel; sourceTree = "<group>"; };
+		C661B49D1EAE377D0051A609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C661B4A01EAE377D0051A609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C661B4A21EAE377D0051A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C661B4AB1EAE37990051A609 /* Cercalia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cercalia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C661B4AD1EAE37990051A609 /* Cercalia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cercalia.h; sourceTree = "<group>"; };
+		C661B4AE1EAE37990051A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6661EF81EDC6C6E00C9920C /* DemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
+		C68E79F61ED5BCEF0019C940 /* CMPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPoint.swift; sourceTree = "<group>"; };
+		C690DE5F1EDDA76A0004FAC2 /* UIColorExtencion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtencion.swift; sourceTree = "<group>"; };
+		C690DE611EDDA9500004FAC2 /* CMUISettingsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMUISettingsButton.swift; sourceTree = "<group>"; };
+		C6A668B21ED6CED50019D9E8 /* CMPolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPolygon.swift; sourceTree = "<group>"; };
+		C6A668B41ED6E6810019D9E8 /* CMGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMGeometry.swift; sourceTree = "<group>"; };
+		C6A668B61ED6EA2E0019D9E8 /* CMMultiPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMultiPoint.swift; sourceTree = "<group>"; };
+		C6A668B91ED6F51C0019D9E8 /* CMStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMStyling.swift; sourceTree = "<group>"; };
+		C6A668BB1ED6F6DE0019D9E8 /* CMFeatureStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMFeatureStyle.swift; sourceTree = "<group>"; };
+		C6A668BD1ED6F75A0019D9E8 /* CMSinglePointStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSinglePointStyle.swift; sourceTree = "<group>"; };
+		C6A668BF1ED6F8410019D9E8 /* CMMarkerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMarkerStyle.swift; sourceTree = "<group>"; };
+		C6ABFC971EDBF56200DBCED5 /* CMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLabel.swift; sourceTree = "<group>"; };
+		C6B82AFE1EDDB8A700F5965A /* north.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = north.png; sourceTree = "<group>"; };
+		C6B82AFF1EDDB8A700F5965A /* north@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "north@2x.png"; sourceTree = "<group>"; };
+		C6B82B001EDDB8A700F5965A /* north@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "north@3x.png"; sourceTree = "<group>"; };
+		C6C598B31ED6C3F9004ECA52 /* CMLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLine.swift; sourceTree = "<group>"; };
+		C6C6A1B11EDD4853002B61BE /* CMUISettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMUISettings.swift; sourceTree = "<group>"; };
+		C6C6A1B31EDD6550002B61BE /* FeaturesDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturesDemoViewController.swift; sourceTree = "<group>"; };
+		C6D760B31ED8017D004140B8 /* CMPointStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPointStyle.swift; sourceTree = "<group>"; };
+		C6D760B51ED809CD004140B8 /* CMMultiPointStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMultiPointStyle.swift; sourceTree = "<group>"; };
+		C6D760B71ED80B22004140B8 /* CMPolygonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPolygonStyle.swift; sourceTree = "<group>"; };
+		C6D760B91ED80CF7004140B8 /* CMLineStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLineStyle.swift; sourceTree = "<group>"; };
+		C6D760BB1ED81A4F004140B8 /* CMLabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLabelStyle.swift; sourceTree = "<group>"; };
+		C6D760BD1ED81D67004140B8 /* CMFontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMFontStyle.swift; sourceTree = "<group>"; };
+		C6D760C01ED81F93004140B8 /* JSONable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONable.swift; sourceTree = "<group>"; };
+		C6EC8B2A1EAF23B3005F0027 /* scene-cercalia.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "scene-cercalia.yaml"; sourceTree = "<group>"; };
+		C6EC8B2F1EAF23B3005F0027 /* CMMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMapView.swift; sourceTree = "<group>"; };
+		C6EC8B341EAF2AF3005F0027 /* CMLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLog.swift; sourceTree = "<group>"; };
+		C6EC8B361EAF3515005F0027 /* CMMapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMapController.swift; sourceTree = "<group>"; };
+		C6EC8B391EAF400C005F0027 /* CMLatLng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLatLng.swift; sourceTree = "<group>"; };
+		C6EC8B3B1EAF46FB005F0027 /* CMCameraUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCameraUpdate.swift; sourceTree = "<group>"; };
+		C6EC8B3D1EAF478E005F0027 /* CMCameraUpdateFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCameraUpdateFactory.swift; sourceTree = "<group>"; };
+		C6EC8B3F1EAF47CA005F0027 /* CMCameraPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCameraPosition.swift; sourceTree = "<group>"; };
+		C6EC8B411EAF69B0005F0027 /* CMUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMUtils.swift; sourceTree = "<group>"; };
+		C6EC8B431EAF7187005F0027 /* CMLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMLayer.swift; sourceTree = "<group>"; };
+		C6EC8B451EAF86B1005F0027 /* CMFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMFeature.swift; sourceTree = "<group>"; };
+		C6F4A0851ED6B4D1000BFAFA /* CMMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMarker.swift; sourceTree = "<group>"; };
+		C6F4A0891ED6B812000BFAFA /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		C6F4A08A1ED6B812000BFAFA /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		C6F4A08B1ED6B812000BFAFA /* location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@3x.png"; sourceTree = "<group>"; };
+		C6F4A08D1ED6B812000BFAFA /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		C6F4A08E1ED6B812000BFAFA /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		C6F4A08F1ED6B812000BFAFA /* marker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@3x.png"; sourceTree = "<group>"; };
+		C6F8EFCD1EDC335F000BECB3 /* CMRemoveObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMRemoveObservable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C661B48D1EAE377D0051A609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C7E1571EAE43F700EF91E1 /* Cercalia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C661B4A71EAE37990051A609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD5C3ED9C58924B37B105A /* Pods_Cercalia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495200FC1EE8293200FD6423 /* Cercalia */ = {
+			isa = PBXGroup;
+			children = (
+				495200FF1EE82A1D00FD6423 /* CMSuggestion.swift */,
+				4989E0881EF1848900741863 /* CMGe.swift */,
+			);
+			path = Cercalia;
+			sourceTree = "<group>";
+		};
+		49A3A96C1EF01C8C00565D3A /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				49A3A96D1EF01D9F00565D3A /* City.swift */,
+				49A3A9721EF0200B00565D3A /* Country.swift */,
+				49A3A9741EF020A300565D3A /* Municipality.swift */,
+				49A3A9761EF020CC00565D3A /* Region.swift */,
+				49A3A9781EF020FE00565D3A /* Road.swift */,
+				49A3A97A1EF0246900565D3A /* RoadProperties.swift */,
+				49A3A97C1EF0268D00565D3A /* StreetProperties.swift */,
+				49A3A97E1EF02D1800565D3A /* SubRegion.swift */,
+			);
+			name = Address;
+			path = Adress;
+			sourceTree = "<group>";
+		};
+		49A3A96F1EF01E2200565D3A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				49A3A9701EF01E5500565D3A /* CMCodeName.swift */,
+				4989E08A1EF1851600741863 /* CMKeyValue.swift */,
+				4989E08C1EF18D3F00741863 /* CMValue.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		49E815621EFD3A7200D7B294 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49002AE71F682B7D0076A3E6 /* skyline.png */,
+				49002AE81F682B7D0076A3E6 /* skyline@2x.png */,
+				49002AE91F682B7D0076A3E6 /* skyline@3x.png */,
+				49E815631EFD3E5D00D7B294 /* arrow-to-left.png */,
+				49258B651F62C99B0046449C /* ic_info.png */,
+				49258B661F62C99B0046449C /* ic_info@2x.png */,
+				49258B671F62C99B0046449C /* ic_info@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49EEBF661EE7EFDF0078D3AD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBF681EE7F0160078D3AD /* Suggest */,
+				49EEBF671EE7EFFE0078D3AD /* Gecoder */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		49EEBF671EE7EFFE0078D3AD /* Gecoder */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBF6B1EE800BB0078D3AD /* CMGeocoder.swift */,
+			);
+			name = Gecoder;
+			path = Geocoder;
+			sourceTree = "<group>";
+		};
+		49EEBF681EE7F0160078D3AD /* Suggest */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBF691EE7F0680078D3AD /* CMSuggestGeocoding.swift */,
+				495200FA1EE817D500FD6423 /* CMSuggest.swift */,
+			);
+			path = Suggest;
+			sourceTree = "<group>";
+		};
+		49FC66541EF9145200DECFBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49FC66571EF926DE00DECFBB /* DetailedLocationsView.swift */,
+				49FC66591EF9270000DECFBB /* DetailedLocationsView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5AE9FB8FBDEFC40F016FBF26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35C6C64A5E03A946D43C59CC /* Pods-Cercalia.debug.xcconfig */,
+				5EC64D4144CF32D12787A06D /* Pods-Cercalia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		750F41CAED5C9F456BC62B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49235C5920753560009645CC /* Pods_Cercalia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63D68181EDEB2A1001BA007 /* gps */ = {
+			isa = PBXGroup;
+			children = (
+				C63D68191EDEB2A1001BA007 /* gps.png */,
+				C63D681A1EDEB2A1001BA007 /* gps@2x.png */,
+				C63D681B1EDEB2A1001BA007 /* gps@3x.png */,
+			);
+			path = gps;
+			sourceTree = "<group>";
+		};
+		C63D681C1EDEB2A1001BA007 /* less */ = {
+			isa = PBXGroup;
+			children = (
+				C63D681D1EDEB2A1001BA007 /* less.png */,
+				C63D681E1EDEB2A1001BA007 /* less@2x.png */,
+				C63D681F1EDEB2A1001BA007 /* less@3x.png */,
+			);
+			path = less;
+			sourceTree = "<group>";
+		};
+		C63D68201EDEB2A1001BA007 /* plus */ = {
+			isa = PBXGroup;
+			children = (
+				C63D68211EDEB2A1001BA007 /* plus.png */,
+				C63D68221EDEB2A1001BA007 /* plus@2x.png */,
+				C63D68231EDEB2A1001BA007 /* plus@3x.png */,
+			);
+			path = plus;
+			sourceTree = "<group>";
+		};
+		C661B4851EAE37620051A609 = {
+			isa = PBXGroup;
+			children = (
+				C661B4921EAE377D0051A609 /* Demo */,
+				C661B4AC1EAE37990051A609 /* Cercalia */,
+				C661B4911EAE377D0051A609 /* Products */,
+				750F41CAED5C9F456BC62B9D /* Frameworks */,
+				5AE9FB8FBDEFC40F016FBF26 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C661B4911EAE377D0051A609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C661B4901EAE377D0051A609 /* Demo.app */,
+				C661B4AB1EAE37990051A609 /* Cercalia.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C661B4921EAE377D0051A609 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				49E815621EFD3A7200D7B294 /* Resources */,
+				49FC66541EF9145200DECFBB /* Views */,
+				C661B4931EAE377D0051A609 /* AppDelegate.swift */,
+				C661B4951EAE377D0051A609 /* SuggestViewController.swift */,
+				C661B4971EAE377D0051A609 /* Main.storyboard */,
+				C661B49D1EAE377D0051A609 /* Assets.xcassets */,
+				C661B49F1EAE377D0051A609 /* LaunchScreen.storyboard */,
+				C661B4A21EAE377D0051A609 /* Info.plist */,
+				C661B49A1EAE377D0051A609 /* Demo.xcdatamodeld */,
+				C6661EF81EDC6C6E00C9920C /* DemoListViewController.swift */,
+				C6C6A1B31EDD6550002B61BE /* FeaturesDemoViewController.swift */,
+				49FC665B1EF93F8200DECFBB /* Utils.swift */,
+				4906C3CD1F0E451100F18CCD /* BoundsViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		C661B4AC1EAE37990051A609 /* Cercalia */ = {
+			isa = PBXGroup;
+			children = (
+				C6F4A0871ED6B812000BFAFA /* images */,
+				C6EC8B291EAF23B3005F0027 /* scenes */,
+				C6EC8B2C1EAF23B3005F0027 /* source */,
+				C661B4AD1EAE37990051A609 /* Cercalia.h */,
+				C661B4AE1EAE37990051A609 /* Info.plist */,
+			);
+			path = Cercalia;
+			sourceTree = "<group>";
+		};
+		C68E79F51ED5BCD20019C940 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C68E79F61ED5BCEF0019C940 /* CMPoint.swift */,
+				C6F4A0851ED6B4D1000BFAFA /* CMMarker.swift */,
+				C6C598B31ED6C3F9004ECA52 /* CMLine.swift */,
+				C6A668B21ED6CED50019D9E8 /* CMPolygon.swift */,
+				C6A668B41ED6E6810019D9E8 /* CMGeometry.swift */,
+				C6A668B61ED6EA2E0019D9E8 /* CMMultiPoint.swift */,
+				C6ABFC971EDBF56200DBCED5 /* CMLabel.swift */,
+				49E698A61F02B19C00DDC009 /* CMCircle.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C6A668B81ED6F4E40019D9E8 /* style */ = {
+			isa = PBXGroup;
+			children = (
+				C6A668B91ED6F51C0019D9E8 /* CMStyling.swift */,
+				C6A668BB1ED6F6DE0019D9E8 /* CMFeatureStyle.swift */,
+				C6A668BD1ED6F75A0019D9E8 /* CMSinglePointStyle.swift */,
+				C6A668BF1ED6F8410019D9E8 /* CMMarkerStyle.swift */,
+				C6D760B31ED8017D004140B8 /* CMPointStyle.swift */,
+				C6D760B51ED809CD004140B8 /* CMMultiPointStyle.swift */,
+				C6D760B71ED80B22004140B8 /* CMPolygonStyle.swift */,
+				C6D760B91ED80CF7004140B8 /* CMLineStyle.swift */,
+				C6D760BB1ED81A4F004140B8 /* CMLabelStyle.swift */,
+				C6D760BD1ED81D67004140B8 /* CMFontStyle.swift */,
+				49EDDA3F1F03B64B00960CE8 /* CMCircleStyle.swift */,
+			);
+			path = style;
+			sourceTree = "<group>";
+		};
+		C6B82AFD1EDDB8A700F5965A /* north */ = {
+			isa = PBXGroup;
+			children = (
+				C6B82AFE1EDDB8A700F5965A /* north.png */,
+				C6B82AFF1EDDB8A700F5965A /* north@2x.png */,
+				C6B82B001EDDB8A700F5965A /* north@3x.png */,
+			);
+			path = north;
+			sourceTree = "<group>";
+		};
+		C6D760BF1ED81F7B004140B8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				C6D760C01ED81F93004140B8 /* JSONable.swift */,
+				C6F8EFCD1EDC335F000BECB3 /* CMRemoveObservable.swift */,
+				C690DE5F1EDDA76A0004FAC2 /* UIColorExtencion.swift */,
+				C690DE611EDDA9500004FAC2 /* CMUISettingsButton.swift */,
+				49F4E51A1EE9A3EA000CC06F /* CMObject.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		C6EC8B291EAF23B3005F0027 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C6EC8B2A1EAF23B3005F0027 /* scene-cercalia.yaml */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		C6EC8B2C1EAF23B3005F0027 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBF661EE7EFDF0078D3AD /* Service */,
+				C6D760BF1ED81F7B004140B8 /* utils */,
+				C6A668B81ED6F4E40019D9E8 /* style */,
+				C68E79F51ED5BCD20019C940 /* Features */,
+				C6EC8B381EAF3FF3005F0027 /* Model */,
+				C6EC8B2F1EAF23B3005F0027 /* CMMapView.swift */,
+				C6EC8B341EAF2AF3005F0027 /* CMLog.swift */,
+				C6EC8B361EAF3515005F0027 /* CMMapController.swift */,
+				C6EC8B3B1EAF46FB005F0027 /* CMCameraUpdate.swift */,
+				C6EC8B3D1EAF478E005F0027 /* CMCameraUpdateFactory.swift */,
+				C6EC8B411EAF69B0005F0027 /* CMUtils.swift */,
+				C6EC8B431EAF7187005F0027 /* CMLayer.swift */,
+				C6EC8B451EAF86B1005F0027 /* CMFeature.swift */,
+				C6220F1E1EDC12FC00B653AE /* CMMapControllerGestureRecognizer.swift */,
+				C6C6A1B11EDD4853002B61BE /* CMUISettings.swift */,
+				C63D682D1EDEF76E001BA007 /* CMCercalia.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		C6EC8B381EAF3FF3005F0027 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49C6C1F81F056A0300DBF273 /* CMLatLngBounds.swift */,
+				49A3A96F1EF01E2200565D3A /* Objects */,
+				49A3A96C1EF01C8C00565D3A /* Address */,
+				495200FC1EE8293200FD6423 /* Cercalia */,
+				C6EC8B391EAF400C005F0027 /* CMLatLng.swift */,
+				C6EC8B3F1EAF47CA005F0027 /* CMCameraPosition.swift */,
+				49A3A9801EF02D5600565D3A /* CMAddress.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6F4A0871ED6B812000BFAFA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C63D68181EDEB2A1001BA007 /* gps */,
+				C63D681C1EDEB2A1001BA007 /* less */,
+				C63D68201EDEB2A1001BA007 /* plus */,
+				C6B82AFD1EDDB8A700F5965A /* north */,
+				C6F4A0881ED6B812000BFAFA /* location */,
+				C6F4A08C1ED6B812000BFAFA /* marker */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C6F4A0881ED6B812000BFAFA /* location */ = {
+			isa = PBXGroup;
+			children = (
+				C6F4A0891ED6B812000BFAFA /* location.png */,
+				C6F4A08A1ED6B812000BFAFA /* location@2x.png */,
+				C6F4A08B1ED6B812000BFAFA /* location@3x.png */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		C6F4A08C1ED6B812000BFAFA /* marker */ = {
+			isa = PBXGroup;
+			children = (
+				C6F4A08D1ED6B812000BFAFA /* marker.png */,
+				C6F4A08E1ED6B812000BFAFA /* marker@2x.png */,
+				C6F4A08F1ED6B812000BFAFA /* marker@3x.png */,
+			);
+			path = marker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C661B4A81EAE37990051A609 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661B4AF1EAE37990051A609 /* Cercalia.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C661B48F1EAE377D0051A609 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C661B4A31EAE377D0051A609 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				C661B48C1EAE377D0051A609 /* Sources */,
+				C661B48D1EAE377D0051A609 /* Frameworks */,
+				C661B48E1EAE377D0051A609 /* Resources */,
+				C6C7E15B1EAE43F700EF91E1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6C7E15A1EAE43F700EF91E1 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = C661B4901EAE377D0051A609 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C661B4AA1EAE37990051A609 /* Cercalia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C661B4B41EAE37990051A609 /* Build configuration list for PBXNativeTarget "Cercalia" */;
+			buildPhases = (
+				E35309551AFCFC67E6173637 /* [CP] Check Pods Manifest.lock */,
+				C661B4A61EAE37990051A609 /* Sources */,
+				C661B4A71EAE37990051A609 /* Frameworks */,
+				C661B4A81EAE37990051A609 /* Headers */,
+				C661B4A91EAE37990051A609 /* Resources */,
+				1CE474C87224EEE1ECFE3D62 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cercalia;
+			productName = Cercalia;
+			productReference = C661B4AB1EAE37990051A609 /* Cercalia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C661B4861EAE37620051A609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					C661B48F1EAE377D0051A609 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = K9Q8KP3YM7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					C661B4AA1EAE37990051A609 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = K9Q8KP3YM7;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C661B4891EAE37620051A609 /* Build configuration list for PBXProject "CercaliaSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C661B4851EAE37620051A609;
+			productRefGroup = C661B4911EAE377D0051A609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C661B48F1EAE377D0051A609 /* Demo */,
+				C661B4AA1EAE37990051A609 /* Cercalia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C661B48E1EAE377D0051A609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49002AEB1F682B7D0076A3E6 /* skyline@2x.png in Resources */,
+				C661B4A11EAE377D0051A609 /* LaunchScreen.storyboard in Resources */,
+				49002AEC1F682B7D0076A3E6 /* skyline@3x.png in Resources */,
+				49FC665A1EF9270000DECFBB /* DetailedLocationsView.xib in Resources */,
+				C661B49E1EAE377D0051A609 /* Assets.xcassets in Resources */,
+				49258B6A1F62C99B0046449C /* ic_info@3x.png in Resources */,
+				C661B4991EAE377D0051A609 /* Main.storyboard in Resources */,
+				49E815641EFD3E5D00D7B294 /* arrow-to-left.png in Resources */,
+				49258B691F62C99B0046449C /* ic_info@2x.png in Resources */,
+				49258B681F62C99B0046449C /* ic_info.png in Resources */,
+				49002AEA1F682B7D0076A3E6 /* skyline.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C661B4A91EAE37990051A609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63D68241EDEB2A1001BA007 /* gps.png in Resources */,
+				C63D68251EDEB2A1001BA007 /* gps@2x.png in Resources */,
+				C6B82B011EDDB8A700F5965A /* north.png in Resources */,
+				C6F4A0921ED6B812000BFAFA /* location@3x.png in Resources */,
+				C63D68261EDEB2A1001BA007 /* gps@3x.png in Resources */,
+				C6B82B021EDDB8A700F5965A /* north@2x.png in Resources */,
+				C6EC8B301EAF23B3005F0027 /* scene-cercalia.yaml in Resources */,
+				C6F4A0911ED6B812000BFAFA /* location@2x.png in Resources */,
+				C6F4A0901ED6B812000BFAFA /* location.png in Resources */,
+				C63D682C1EDEB2A1001BA007 /* plus@3x.png in Resources */,
+				C6F4A0951ED6B812000BFAFA /* marker@3x.png in Resources */,
+				C63D682A1EDEB2A1001BA007 /* plus.png in Resources */,
+				C63D682B1EDEB2A1001BA007 /* plus@2x.png in Resources */,
+				C63D68271EDEB2A1001BA007 /* less.png in Resources */,
+				C6F4A0931ED6B812000BFAFA /* marker.png in Resources */,
+				C6B82B031EDDB8A700F5965A /* north@3x.png in Resources */,
+				C6F4A0941ED6B812000BFAFA /* marker@2x.png in Resources */,
+				C63D68291EDEB2A1001BA007 /* less@3x.png in Resources */,
+				C63D68281EDEB2A1001BA007 /* less@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CE474C87224EEE1ECFE3D62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cercalia/Pods-Cercalia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35309551AFCFC67E6173637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C661B48C1EAE377D0051A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C6A1B41EDD6550002B61BE /* FeaturesDemoViewController.swift in Sources */,
+				C661B49C1EAE377D0051A609 /* Demo.xcdatamodeld in Sources */,
+				C661B4961EAE377D0051A609 /* SuggestViewController.swift in Sources */,
+				49FC665C1EF93F8200DECFBB /* Utils.swift in Sources */,
+				49FC66581EF926DE00DECFBB /* DetailedLocationsView.swift in Sources */,
+				C661B4941EAE377D0051A609 /* AppDelegate.swift in Sources */,
+				C6661EF91EDC6C6E00C9920C /* DemoListViewController.swift in Sources */,
+				4906C3CE1F0E451100F18CCD /* BoundsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C661B4A61EAE37990051A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A668BC1ED6F6DE0019D9E8 /* CMFeatureStyle.swift in Sources */,
+				C6A668B31ED6CED50019D9E8 /* CMPolygon.swift in Sources */,
+				C6A668C01ED6F8410019D9E8 /* CMMarkerStyle.swift in Sources */,
+				C6EC8B3A1EAF400C005F0027 /* CMLatLng.swift in Sources */,
+				C690DE601EDDA76A0004FAC2 /* UIColorExtencion.swift in Sources */,
+				495200FB1EE817D500FD6423 /* CMSuggest.swift in Sources */,
+				49A3A96E1EF01D9F00565D3A /* City.swift in Sources */,
+				4989E0891EF1848900741863 /* CMGe.swift in Sources */,
+				49A3A9771EF020CC00565D3A /* Region.swift in Sources */,
+				C6F4A0861ED6B4D1000BFAFA /* CMMarker.swift in Sources */,
+				49A3A97D1EF0268D00565D3A /* StreetProperties.swift in Sources */,
+				C6D760BE1ED81D67004140B8 /* CMFontStyle.swift in Sources */,
+				C6EC8B371EAF3515005F0027 /* CMMapController.swift in Sources */,
+				49F4E51B1EE9A3EA000CC06F /* CMObject.swift in Sources */,
+				49C6C1F91F056A0300DBF273 /* CMLatLngBounds.swift in Sources */,
+				C6A668B71ED6EA2E0019D9E8 /* CMMultiPoint.swift in Sources */,
+				C6EC8B421EAF69B0005F0027 /* CMUtils.swift in Sources */,
+				C6D760B81ED80B22004140B8 /* CMPolygonStyle.swift in Sources */,
+				4989E08D1EF18D3F00741863 /* CMValue.swift in Sources */,
+				C6ABFC981EDBF56200DBCED5 /* CMLabel.swift in Sources */,
+				C6EC8B3E1EAF478E005F0027 /* CMCameraUpdateFactory.swift in Sources */,
+				C6C6A1B21EDD4853002B61BE /* CMUISettings.swift in Sources */,
+				49EDDA401F03B64B00960CE8 /* CMCircleStyle.swift in Sources */,
+				C6A668BE1ED6F75A0019D9E8 /* CMSinglePointStyle.swift in Sources */,
+				C63D682E1EDEF76E001BA007 /* CMCercalia.swift in Sources */,
+				C6D760B41ED8017D004140B8 /* CMPointStyle.swift in Sources */,
+				49A3A9711EF01E5500565D3A /* CMCodeName.swift in Sources */,
+				C690DE621EDDA9500004FAC2 /* CMUISettingsButton.swift in Sources */,
+				49E698A71F02B19C00DDC009 /* CMCircle.swift in Sources */,
+				49A3A97F1EF02D1800565D3A /* SubRegion.swift in Sources */,
+				C6A668B51ED6E6810019D9E8 /* CMGeometry.swift in Sources */,
+				C6EC8B461EAF86B1005F0027 /* CMFeature.swift in Sources */,
+				C6220F1F1EDC12FC00B653AE /* CMMapControllerGestureRecognizer.swift in Sources */,
+				C6F8EFCE1EDC335F000BECB3 /* CMRemoveObservable.swift in Sources */,
+				C6C598B41ED6C3F9004ECA52 /* CMLine.swift in Sources */,
+				49A3A9751EF020A300565D3A /* Municipality.swift in Sources */,
+				C6D760BC1ED81A4F004140B8 /* CMLabelStyle.swift in Sources */,
+				49A3A9791EF020FE00565D3A /* Road.swift in Sources */,
+				49A3A9731EF0200B00565D3A /* Country.swift in Sources */,
+				49A3A9811EF02D5600565D3A /* CMAddress.swift in Sources */,
+				C6D760BA1ED80CF7004140B8 /* CMLineStyle.swift in Sources */,
+				49EEBF6C1EE800BB0078D3AD /* CMGeocoder.swift in Sources */,
+				C6D760C11ED81F93004140B8 /* JSONable.swift in Sources */,
+				C6EC8B3C1EAF46FB005F0027 /* CMCameraUpdate.swift in Sources */,
+				C6EC8B401EAF47CA005F0027 /* CMCameraPosition.swift in Sources */,
+				C68E79F71ED5BCEF0019C940 /* CMPoint.swift in Sources */,
+				49A3A97B1EF0246900565D3A /* RoadProperties.swift in Sources */,
+				495201001EE82A1D00FD6423 /* CMSuggestion.swift in Sources */,
+				C6D760B61ED809CD004140B8 /* CMMultiPointStyle.swift in Sources */,
+				C6EC8B441EAF7187005F0027 /* CMLayer.swift in Sources */,
+				C6EC8B331EAF23B3005F0027 /* CMMapView.swift in Sources */,
+				C6A668BA1ED6F51C0019D9E8 /* CMStyling.swift in Sources */,
+				4989E08B1EF1851600741863 /* CMKeyValue.swift in Sources */,
+				49EEBF6A1EE7F0680078D3AD /* CMSuggestGeocoding.swift in Sources */,
+				C6EC8B351EAF2AF3005F0027 /* CMLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6C7E15A1EAE43F700EF91E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C661B4AA1EAE37990051A609 /* Cercalia */;
+			targetProxy = C6C7E1591EAE43F700EF91E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C661B4971EAE377D0051A609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C661B4981EAE377D0051A609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C661B49F1EAE377D0051A609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C661B4A01EAE377D0051A609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C661B48A1EAE37620051A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C661B48B1EAE37620051A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C661B4A41EAE377D0051A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = K9Q8KP3YM7;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Tangram-es",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexusgeografics.cercalia.maps.demo.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		C661B4A51EAE377D0051A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = K9Q8KP3YM7;
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Tangram-es",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexusgeografics.cercalia.maps.demo.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		C661B4B51EAE37990051A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C6C64A5E03A946D43C59CC /* Pods-Cercalia.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K9Q8KP3YM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Tangram-es",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = Cercalia/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexusgeografics.cercalia.maps.Cercalia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s armv7";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C661B4B61EAE37990051A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC64D4144CF32D12787A06D /* Pods-Cercalia.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K9Q8KP3YM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Tangram-es",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "$(inherited)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = Cercalia/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexusgeografics.cercalia.maps.Cercalia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s armv7";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C661B4891EAE37620051A609 /* Build configuration list for PBXProject "CercaliaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661B48A1EAE37620051A609 /* Debug */,
+				C661B48B1EAE37620051A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C661B4A31EAE377D0051A609 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661B4A41EAE377D0051A609 /* Debug */,
+				C661B4A51EAE377D0051A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C661B4B41EAE37990051A609 /* Build configuration list for PBXNativeTarget "Cercalia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661B4B51EAE37990051A609 /* Debug */,
+				C661B4B61EAE37990051A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C661B49A1EAE377D0051A609 /* Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C661B49B1EAE377D0051A609 /* Demo.xcdatamodel */,
+			);
+			currentVersion = C661B49B1EAE377D0051A609 /* Demo.xcdatamodel */;
+			path = Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C661B4861EAE37620051A609 /* Project object */;
+}

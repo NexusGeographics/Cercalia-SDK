@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "24955de9-fa5e-4073-b71e-ac78f92f7742++4271",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "24955de9-fa5e-4073-b71e-ac78f92f7742++4271" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "24955de9-fa5e-4073-b71e-ac78f92f7742++4271" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "49CB3542-BA5E-4786-81DC-F557045A0D28",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "24955de9-fa5e-4073-b71e-ac78f92f7742++4271" : "CercaliaSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CercaliaSDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CercaliaSDK.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.143\/svn\/CercaliaSDK",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24955de9-fa5e-4073-b71e-ac78f92f7742++4271"
+    }
+  ]
+}

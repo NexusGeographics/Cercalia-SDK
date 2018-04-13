@@ -1,0 +1,10 @@
+sources:
+    cercalia:
+        type: Raster
+        url: https://c1.cercalia.com/tilecache/tilecache.cgi/1.0.0/default_google/{z}/{x}/{y}.png?type=google
+layers:
+    cercalia_map:
+        data: { source: cercalia }
+        draw:
+            raster:
+                order: 0 # draw on bottom
